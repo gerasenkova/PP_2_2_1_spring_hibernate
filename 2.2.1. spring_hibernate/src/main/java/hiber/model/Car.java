@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name = "cars")
 public class Car {
 
-    @OneToOne(mappedBy = "car")
+    @OneToOne
     private User user;
 
     @Id
